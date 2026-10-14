@@ -1,0 +1,43 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Node.js and Next.js
+node_modules/
+.next/
+out/
+dist/
+
+# Logs and local databases
+*.log
+*.sqlite3
+*.db
+
+# Build and cache files
+coverage/
+*.tsbuildinfo
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+tmp/
+temp/
+
+# Freebuff local configuration and cache
+.freebuff/
+
+# Development process files
+*.pid
